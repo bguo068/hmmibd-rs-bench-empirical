@@ -13,6 +13,9 @@ input/Pf7_fws.txt
 # raw vcf files
 input/Pf7_vcf/
 
+# prefilt bcf 
+input/Pf7_filt.bcf
+
 # reference genome
 input/refgenome/
 
