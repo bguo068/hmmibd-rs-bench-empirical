@@ -15,7 +15,8 @@ bcftools concat \
   bcftools view -q 0.01:minor -Ou | \
   bcftools annotate -x ^FMT/GT,^FMT/AD,^INFO/AN,^INFO/AC,^INFO/AF --threads 15 -Ob -o Pf7_filt.bcf 
 
-# processing time information
+# VCF prefilting time information 15.2 hours
+#
 # Concatenating Pf3D7_01_v3.pf7.vcf.gz 1720.497856 seconds
 # Concatenating Pf3D7_02_v3.pf7.vcf.gz 2119.268130 seconds
 # Concatenating Pf3D7_03_v3.pf7.vcf.gz 2364.708051 seconds
@@ -29,4 +30,5 @@ bcftools concat \
 # Concatenating Pf3D7_11_v3.pf7.vcf.gz 4110.825870 seconds
 # Concatenating Pf3D7_12_v3.pf7.vcf.gz 4894.922048 seconds
 # Concatenating Pf3D7_13_v3.pf7.vcf.gz 2747.724467 seconds
-# Concatenating Pf3D7_14_v3.pf7.vcf.gz
+# Concatenating Pf3D7_14_v3.pf7.vcf.gz 6283.307319 seconds
+

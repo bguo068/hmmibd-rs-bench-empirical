@@ -1,0 +1,20 @@
+# binnary files
+bin/genomeutils
+bin/hmmibd-rs
+bin/ibdutils
+
+# rust projects
+hmmibd-rs/
+ishare/
+
+# intermediate files
+input/Pf7_fws.txt
+
+# raw vcf files
+input/Pf7_vcf/
+
+# reference genome
+input/refgenome/
+
+
+
